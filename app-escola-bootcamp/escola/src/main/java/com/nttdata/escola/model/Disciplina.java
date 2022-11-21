@@ -27,10 +27,6 @@ public class Disciplina {
 
     @Override
     public String toString() {
-        return "Disciplina{" +
-                "id=" + disciplinaId +
-                ", nome='" + nomeDisciplina + '\'' +
-                ", area='" + area + '\'' +
-                '}';
+        return nomeDisciplina;
     }
 }

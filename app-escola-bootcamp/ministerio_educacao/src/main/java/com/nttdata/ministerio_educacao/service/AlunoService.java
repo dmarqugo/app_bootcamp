@@ -12,8 +12,6 @@ public class AlunoService {
     @Autowired
     private AlunoValidator alunoValidator;
 
-    @Autowired AlunoRepository repository;
-
 
     public Aluno postAluno(Aluno aluno) {
         return alunoValidator.postAluno(aluno);
